@@ -1,0 +1,123 @@
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+        -ms-text-size-adjust: 100%;
+  }
+  html{
+    min-height: 100vh;
+    /* background-color: aqua; */
+}
+  body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+  }
+*{
+  margin: 0;
+  padding: 0;
+}
+ul, li{
+  list-style-type: none;
+}
+  .p-x-1{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .p-y-1{
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .flex-row{
+    display: flex;
+    
+  }
+  .flex-col{
+    display: flex;
+    flex-direction: column;
+  }
+  .align-item-c{
+    align-items: center;
+  }
+  .jc-sb{
+    justify-content: space-between;
+  }
+  .flex-1{
+    flex: 1;
+  }
+
+
+  .text-align-r{
+    text-align: right;
+  }
+  .text-align-c{
+    text-align: center;
+  }
+  .text-align-l{
+    text-align: left;
+  }
+
+
+  .margin-right-5{
+    margin-right: .5em;
+    
+  }
+  .m-x-1{
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .m{
+    margin: 8px;
+  }
+
+
+  .va{
+    vertical-align: middle;
+  }
+  
+ 
+  .p-l{
+    padding-left: 40px;
+  }
+  .p-t-1{
+    padding-top: 1em;
+  }
+
+
+
+  .fs-1{
+    font-size: .7em;
+  }
+  .fs-2{
+    font-size: 1em;
+  }
+
+  .color-gray{
+    color: gray;
+   
+  }
+
+.cursor-pointer{
+  cursor: pointer;
+}
+
+.pos-rel{
+  position: relative;
+}
+.pos-abs{
+  position: absolute;
+}
+
+/* 字体颜色 */
+.color-w{
+  color: white;
+}
+.color-gray{
+  color: grey;
+}
+.color-gray-1{
+  color: rgba(105, 105, 105, 0.473);
+}
+
+.text-shadow-1{
+  text-shadow: 1px 1px 4px white;
+}
